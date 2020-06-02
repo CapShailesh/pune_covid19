@@ -2,16 +2,16 @@ import React, { Component } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Main from "./components/MainComponent";
-import { HashRouter } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <HashRouter>
+      <Router>
         <div>
           <Main />
         </div>
-      </HashRouter>
+      </Router>
     );
   }
 }
