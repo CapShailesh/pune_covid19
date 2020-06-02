@@ -1,0 +1,22 @@
+body.light-mode {
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #10171d;
+  color: #dfdfdf;
+}
+
+body.dark-mode .content code {
+  background-color: #1b2938;
+}
+
+body.dark-mode .content a {
+  color: #ee09;
+}
+
+body.dark-mode .content button {
+  color: #ee09;
+}
