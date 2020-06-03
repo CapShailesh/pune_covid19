@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pune_covid19/precache-manifest.fea4a7447d62a015045e21f1188db2ee.js"
+  "/pune_covid19/precache-manifest.25e00e484f7cd01f126a3e5923b4b877.js"
 );
 
 self.addEventListener('message', (event) => {
